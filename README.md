@@ -1,7 +1,7 @@
 # Investigation
 Proyecto completo de la asignatura Acceso a Datos de 2ºDAM 
 
-Gestor de Investigaciones usando el Modelo Vista Controlador con el patrón DAO, que se encarga, de gestionar la conexión a las diferentes BBDD y en diferentes tecnologías
+Gestor de Investigaciones usando el Modelo Vista Controlador con el patrón DAO, que se encarga de gestionar la conexión a las diferentes BBDD y en diferentes tecnologías
 
 ## Descripción del funcionamiento
 
