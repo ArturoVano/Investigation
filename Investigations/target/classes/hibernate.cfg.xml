@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.driver_class">org.mariadb.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mariadb://192.168.0.42:3306/investigation</property>
+        <property name="hibernate.connection.username">arturo</property>
+        <property name="hibernate.connection.password">alumno</property>     
+        <property name="hibernate.dialect">org.hibernate.dialect.MariaDB10Dialect</property>
+        
+        <mapping class="com.iespacomolla.investigacion.modelo.Campo"/>
+        <mapping class="com.iespacomolla.investigacion.modelo.Entidad"/>
+        <mapping class="com.iespacomolla.investigacion.modelo.Investigador"/>
+        <mapping class="com.iespacomolla.investigacion.modelo.Proyecto"/>
+        
+       
+    </session-factory>
+</hibernate-configuration>

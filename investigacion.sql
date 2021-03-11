@@ -83,8 +83,8 @@ INSERT INTO entidad_proyecto(entidad_id, proyecto_id)
 VALUES (1, 3); 
 
 INSERT INTO investigador_campo(investigador_id, campo_id)
-VALUES (3,2),
-(4,1), (5,2)
+VALUES (1,2),
+(2,1), (3,2)
 
 --Práctica de consultas:
 SELECT e.entidad_id, e.nombre, p.nombre
