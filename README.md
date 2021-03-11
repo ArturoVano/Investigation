@@ -9,7 +9,8 @@ Implementa con cada uno de los JDBC con MariaDB, Hibernate con MariaDB, ObjectDB
 Queda a elección del usuario cual de ellos se usará para la conexión en la ejecución de la aplicación, concretamente lo elegirá en la primera pantalla de "Login" donde también introducirá los datos para la conexión necesarios.
 Una vez elegida mediante el JComboBox en el JDialog, se iniciará a aplicación en sí.
 Mediante un menú principal, podrémos acceder a las ventanas de cada una de las JFramses con las tablas. Estas implementan la interfaz Tablas, que la clase controlador usará como variable e instanciará según la elección del usuario en el controlador principal.
-Las Clases DAOManager* localizadas en los paquetes DAO de cada uno de los 4 servicios implementan la interfaz DAOManager, que el controlador utiliza para comunicarse con las clases de acceso a datos de bajo nivel y extraer los objetos que estas cargan de forma cómoda y modular. 
+Las Clases DAOManager* localizadas en los paquetes DAO de cada uno de los 4 servicios implementan la interfaz DAOManager, que el controlador utiliza para comunicarse con las clases de acceso a datos de bajo nivel y extraer los objetos que estas cargan de forma cómoda y modular.
+Para que los servicios JDBC e Hibernate funcionen adecuadamente se debe disponer de la BBDD y las tablas que se encuentran en el fichero investigacion.sql para ser ejecutado en el Gestor de Bases de Datos MariaDB o MySQL.
 
 ## Modelo (Clases Java Beans)
 
